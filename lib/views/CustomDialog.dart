@@ -76,6 +76,7 @@ class CustomDialog extends StatelessWidget {
                         Navigator.of(context).pop(); // To close the dialog
                       },
                       child: Text(buttonText),
+                      textColor: Colors.purple,
                     ))
               ])),
       Positioned(
